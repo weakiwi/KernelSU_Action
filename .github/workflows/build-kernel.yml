@@ -1,4 +1,10 @@
-name: Build LineageOS 19.1 Kernel (KernelSU)
+name: Build Stock Rom Kernel
+on:
+  watch:
+    types: [started]
+
+  workflow_dispatch:
+
 
 jobs:
   build:
